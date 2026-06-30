@@ -1,0 +1,56 @@
+name: phneak_teb
+description: "Phneak Teb - A phishing URL scanner that protects users from malicious links."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Networking / API
+  http: ^1.2.0
+
+  # Hashing
+  crypto: ^3.0.3
+
+  # Local storage / database
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+
+  # QR scanning
+  mobile_scanner: ^4.0.1
+
+  # Security / biometrics
+  local_auth: ^2.2.0
+  flutter_secure_storage: ^9.0.0
+
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+
+  # State / utilities
+  provider: ^6.1.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/local_blocklist.json
+
+  fonts:
+    - family: Battambang
+      fonts:
+        - asset: assets/fonts/Battambang-Regular.ttf
+        - asset: assets/fonts/Battambang-Bold.ttf
+          weight: 700

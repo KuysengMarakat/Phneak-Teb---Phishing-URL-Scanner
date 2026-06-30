@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "updated": "2026-06-30",
+  "description": "Static list of known phishing / malicious domains used for instant offline blocking.",
+  "domains": [
+    "phishing-example.com",
+    "free-gift-card-now.com",
+    "secure-login-update.net",
+    "account-verify-now.com",
+    "bank-secure-alert.com",
+    "paypal-confirm-account.com",
+    "apple-id-locked.net",
+    "win-prize-today.xyz"
+  ]
+}
